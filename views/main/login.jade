@@ -18,7 +18,7 @@ html
 					| LTE
 			.login-box-body
 				
-				form(action="/login/",method="post")
+				form(action="/login",method="post")
 					- if (messages.msg_error) 
 						.alert.alert-danger.alert-dismissable 
 							button.close(type='button', data-dismiss='alert', aria-hidden='true') 
